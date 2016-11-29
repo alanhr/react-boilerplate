@@ -1,15 +1,3 @@
-# React Boilerplate Model
-
-This is a base project, created to serve as a slingshot for all of our future endeavors. This repo is already set up with folder structure, eslint, editor config and testing, as defined by the Mongeral Aegon Development Team Standards.
-
-## Get the files
-
-Clone this repo.
-
-```
-$ git clone git@bitbucket.org:mongeralaegon/react-boilerplate-model.git
-```
-
 ## Folder Structure
 
 ```
