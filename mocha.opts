@@ -1,0 +1,5 @@
+--require spec
+--compilers js:babel-register
+--require ./mocha.config.js
+--reporter progress
+--recursive

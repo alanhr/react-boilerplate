@@ -1,0 +1,3 @@
+/build/**
+app/src/index.js
+app/src/container/store/**

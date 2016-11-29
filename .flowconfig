@@ -1,0 +1,14 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/fbjs
+<PROJECT_ROOT>/coverage/*
+<PROJECT_ROOT>/webpack
+<PROJECT_ROOT>/mocha.*
+<PROJECT_ROOT>/server
+
+[libs]
+./node_modules/iflow-react-router/index.js.flow
+
+[options]
+module.name_mapper.extension='css' -> '<PROJECT_ROOT>/flow/CSSModule.js.flow'
+module.name_mapper.extension='styl' -> '<PROJECT_ROOT>/flow/CSSModule.js.flow'
+module.name_mapper='.*\.\(svg\|png\|jpg\|gif\)$' -> '<PROJECT_ROOT>/flow/ImageModule.js.flow'
